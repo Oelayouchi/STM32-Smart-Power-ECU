@@ -1,0 +1,25 @@
+# STM32CubeIDE
+Debug/
+Release/
+.settings/
+.metadata/
+*.launch
+*.elf
+*.hex
+*.bin
+*.map
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+telemetry_log.csv
+
+# Proteus
+Backup Of *.pdsprj
+*.pdsbak
+
+# OS
+.DS_Store
+Thumbs.db
