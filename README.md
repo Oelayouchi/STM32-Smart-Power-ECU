@@ -19,6 +19,16 @@ Embedded power monitoring and protection ECU based on the STM32F103C8T6. The pro
 - Requirements, DTCs and verification test matrix
 - Roadmap for CAN, FreeRTOS and AUTOSAR-inspired layering
 
+## System visuals
+
+### Safety state machine
+
+![Safety state machine](docs/images/state-machine.svg)
+
+### Proteus wiring overview
+
+![Proteus wiring overview](docs/images/proteus-wiring.svg)
+
 ## Repository structure
 
 ```text
