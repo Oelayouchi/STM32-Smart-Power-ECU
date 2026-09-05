@@ -1,5 +1,7 @@
 # STM32 Smart Power Monitoring & Protection ECU
 
+🇬🇧 **English** | [🇫🇷 Français](README.fr.md)
+
 ![Architecture](docs/images/architecture.svg)
 
 Embedded power monitoring and protection ECU based on the STM32F103C8T6. The project monitors battery voltage, load current and temperature, detects abnormal conditions, controls a fail-safe relay, reports diagnostics over UART and provides a Python monitoring dashboard.
