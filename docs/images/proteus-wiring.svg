@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <rect width="1400" height="760" fill="#f8fafc"/>
+  <text x="70" y="80" font-family="Arial" font-size="42" font-weight="700" fill="#0f172a">Proteus Wiring Overview</text>
+  <text x="70" y="118" font-family="Arial" font-size="21" fill="#475569">Simulation-oriented connection map for STM32F103C8T6</text>
+
+  <rect x="520" y="190" width="360" height="380" rx="28" fill="#e2e8f0" stroke="#0f172a" stroke-width="4"/>
+  <text x="700" y="245" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#0f172a">STM32F103C8T6</text>
+  <text x="700" y="295" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PA0  Battery ADC</text>
+  <text x="700" y="335" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PA1  Current ADC</text>
+  <text x="700" y="375" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PA2  LM35</text>
+  <text x="700" y="415" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PA9 / PA10  UART</text>
+  <text x="700" y="455" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PB0  Relay</text>
+  <text x="700" y="495" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PB1  Buzzer</text>
+  <text x="700" y="535" text-anchor="middle" font-family="Arial" font-size="21" fill="#334155">PB12-14  Status LEDs</text>
+
+  <rect x="70" y="190" width="300" height="120" rx="22" fill="#ffffff" stroke="#0284c7" stroke-width="3"/>
+  <text x="220" y="238" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Battery Divider</text>
+  <text x="220" y="275" text-anchor="middle" font-family="Arial" font-size="19" fill="#475569">100k / 22k → PA0</text>
+
+  <rect x="70" y="350" width="300" height="120" rx="22" fill="#ffffff" stroke="#0284c7" stroke-width="3"/>
+  <text x="220" y="398" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Current Emulator</text>
+  <text x="220" y="435" text-anchor="middle" font-family="Arial" font-size="19" fill="#475569">0.5 V/A → PA1</text>
+
+  <rect x="70" y="510" width="300" height="120" rx="22" fill="#ffffff" stroke="#0284c7" stroke-width="3"/>
+  <text x="220" y="558" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">LM35</text>
+  <text x="220" y="595" text-anchor="middle" font-family="Arial" font-size="19" fill="#475569">10 mV/C → PA2</text>
+
+  <rect x="1030" y="175" width="300" height="120" rx="22" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+  <text x="1180" y="223" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Relay Driver</text>
+  <text x="1180" y="260" text-anchor="middle" font-family="Arial" font-size="19" fill="#475569">NPN + flyback diode</text>
+
+  <rect x="1030" y="335" width="300" height="120" rx="22" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+  <text x="1180" y="383" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">LEDs + Buzzer</text>
+  <text x="1180" y="420" text-anchor="middle" font-family="Arial" font-size="19" fill="#475569">Status outputs</text>
+
+  <rect x="1030" y="495" width="300" height="120" rx="22" fill="#ffffff" stroke="#7c3aed" stroke-width="3"/>
+  <text x="1180" y="543" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Virtual Terminal</text>
+  <text x="1180" y="580" text-anchor="middle" font-family="Arial" font-size="19" fill="#475569">115200 baud, 8N1</text>
+
+  <g stroke="#64748b" stroke-width="4" fill="none">
+    <path d="M370 250 H500"/><path d="M370 410 H500"/><path d="M370 570 H500"/>
+    <path d="M900 235 H1010"/><path d="M900 395 H1010"/><path d="M900 555 H1010"/>
+  </g>
+</svg>
