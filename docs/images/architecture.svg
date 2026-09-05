@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <rect width="1400" height="760" fill="#0b1220"/>
+  <text x="70" y="90" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">STM32 Smart Power Monitoring &amp; Protection ECU</text>
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="24" fill="#94a3b8">Embedded sensing • safety state machine • diagnostics • PC monitoring</text>
+
+  <rect x="70" y="210" rx="24" ry="24" width="260" height="120" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <text x="200" y="258" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#e2e8f0">Voltage Sensor</text>
+  <text x="200" y="294" text-anchor="middle" font-family="Arial" font-size="20" fill="#94a3b8">PA0 / ADC1_IN0</text>
+
+  <rect x="70" y="370" rx="24" ry="24" width="260" height="120" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <text x="200" y="418" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#e2e8f0">Current Sensor</text>
+  <text x="200" y="454" text-anchor="middle" font-family="Arial" font-size="20" fill="#94a3b8">PA1 / ADC1_IN1</text>
+
+  <rect x="70" y="530" rx="24" ry="24" width="260" height="120" fill="#111827" stroke="#38bdf8" stroke-width="3"/>
+  <text x="200" y="578" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#e2e8f0">Temperature</text>
+  <text x="200" y="614" text-anchor="middle" font-family="Arial" font-size="20" fill="#94a3b8">LM35 / PA2</text>
+
+  <rect x="480" y="260" rx="30" ry="30" width="390" height="340" fill="#111827" stroke="#22c55e" stroke-width="4"/>
+  <text x="675" y="325" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#ffffff">STM32F103C8T6</text>
+  <text x="675" y="372" text-anchor="middle" font-family="Arial" font-size="22" fill="#86efac">ADC + DMA</text>
+  <text x="675" y="418" text-anchor="middle" font-family="Arial" font-size="22" fill="#86efac">Filtering &amp; Plausibility</text>
+  <text x="675" y="464" text-anchor="middle" font-family="Arial" font-size="22" fill="#86efac">Safety State Machine</text>
+  <text x="675" y="510" text-anchor="middle" font-family="Arial" font-size="22" fill="#86efac">UART Diagnostics</text>
+  <text x="675" y="556" text-anchor="middle" font-family="Arial" font-size="22" fill="#86efac">Fail-safe Outputs</text>
+
+  <rect x="1020" y="205" rx="24" ry="24" width="300" height="120" fill="#111827" stroke="#f59e0b" stroke-width="3"/>
+  <text x="1170" y="255" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#e2e8f0">Relay / MOSFET</text>
+  <text x="1170" y="291" text-anchor="middle" font-family="Arial" font-size="20" fill="#94a3b8">Load disconnect</text>
+
+  <rect x="1020" y="370" rx="24" ry="24" width="300" height="120" fill="#111827" stroke="#f59e0b" stroke-width="3"/>
+  <text x="1170" y="418" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#e2e8f0">LEDs + Buzzer</text>
+  <text x="1170" y="454" text-anchor="middle" font-family="Arial" font-size="20" fill="#94a3b8">Visual diagnostics</text>
+
+  <rect x="1020" y="535" rx="24" ry="24" width="300" height="120" fill="#111827" stroke="#a78bfa" stroke-width="3"/>
+  <text x="1170" y="583" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#e2e8f0">Python Dashboard</text>
+  <text x="1170" y="619" text-anchor="middle" font-family="Arial" font-size="20" fill="#94a3b8">UART + CSV logging</text>
+
+  <g stroke="#64748b" stroke-width="5" fill="none">
+    <path d="M330 270 H455"/><path d="M330 430 H455"/><path d="M330 590 H455"/>
+    <path d="M870 315 H995"/><path d="M870 430 H995"/><path d="M870 565 H995"/>
+  </g>
+  <g fill="#64748b">
+    <polygon points="455,270 438,260 438,280"/><polygon points="455,430 438,420 438,440"/><polygon points="455,590 438,580 438,600"/>
+    <polygon points="995,315 978,305 978,325"/><polygon points="995,430 978,420 978,440"/><polygon points="995,565 978,555 978,575"/>
+  </g>
+</svg>
