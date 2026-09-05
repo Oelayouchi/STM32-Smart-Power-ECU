@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700">
+  <rect width="1400" height="700" fill="#0f172a"/>
+  <text x="70" y="85" font-family="Arial" font-size="42" font-weight="700" fill="#ffffff">Safety State Machine</text>
+  <text x="70" y="125" font-family="Arial" font-size="22" fill="#94a3b8">Qualified faults, hysteresis and fail-safe relay control</text>
+
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="70" y="270" rx="28" width="210" height="110" fill="#1e293b" stroke="#94a3b8" stroke-width="3"/>
+    <text x="175" y="320" font-size="28" font-weight="700" fill="#ffffff">INIT</text>
+    <text x="175" y="352" font-size="18" fill="#cbd5e1">Relay OFF</text>
+
+    <rect x="350" y="270" rx="28" width="210" height="110" fill="#052e16" stroke="#22c55e" stroke-width="4"/>
+    <text x="455" y="320" font-size="28" font-weight="700" fill="#86efac">NORMAL</text>
+    <text x="455" y="352" font-size="18" fill="#bbf7d0">Relay ON</text>
+
+    <rect x="630" y="270" rx="28" width="210" height="110" fill="#422006" stroke="#f59e0b" stroke-width="4"/>
+    <text x="735" y="320" font-size="28" font-weight="700" fill="#fcd34d">WARNING</text>
+    <text x="735" y="352" font-size="18" fill="#fde68a">Relay ON</text>
+
+    <rect x="910" y="270" rx="28" width="210" height="110" fill="#450a0a" stroke="#ef4444" stroke-width="4"/>
+    <text x="1015" y="320" font-size="28" font-weight="700" fill="#fca5a5">FAULT</text>
+    <text x="1015" y="352" font-size="18" fill="#fecaca">Latched • OFF</text>
+
+    <rect x="1190" y="270" rx="28" width="150" height="110" fill="#3b0764" stroke="#c084fc" stroke-width="4"/>
+    <text x="1265" y="320" font-size="24" font-weight="700" fill="#e9d5ff">SHUTDOWN</text>
+    <text x="1265" y="352" font-size="18" fill="#f3e8ff">Immediate OFF</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="5" fill="none">
+    <path d="M280 325 H335"/><path d="M560 325 H615"/><path d="M840 325 H895"/><path d="M1120 325 H1175"/>
+    <path d="M735 400 C735 500,455 500,455 400"/>
+    <path d="M1015 400 C1015 560,455 560,455 400"/>
+  </g>
+  <g fill="#64748b">
+    <polygon points="335,325 318,315 318,335"/><polygon points="615,325 598,315 598,335"/><polygon points="895,325 878,315 878,335"/><polygon points="1175,325 1158,315 1158,335"/>
+  </g>
+
+  <text x="450" y="230" font-family="Arial" font-size="18" fill="#94a3b8">Valid samples</text>
+  <text x="730" y="230" font-family="Arial" font-size="18" fill="#94a3b8">Warning threshold</text>
+  <text x="1005" y="230" font-family="Arial" font-size="18" fill="#94a3b8">100 ms qualification</text>
+  <text x="1230" y="230" font-family="Arial" font-size="18" fill="#94a3b8">Critical threshold</text>
+  <text x="570" y="535" font-family="Arial" font-size="18" fill="#94a3b8">Auto-recovery with hysteresis</text>
+  <text x="720" y="605" font-family="Arial" font-size="18" fill="#94a3b8">Manual reset only when recovery conditions are satisfied</text>
+</svg>
